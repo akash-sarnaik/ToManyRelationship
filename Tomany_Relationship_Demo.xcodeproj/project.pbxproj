@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2026D1B21AEA23C100E64770 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2026D1B11AEA23C100E64770 /* main.m */; };
+		2026D1B51AEA23C100E64770 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2026D1B41AEA23C100E64770 /* AppDelegate.m */; };
+		2026D1B81AEA23C100E64770 /* Tomany_Relationship_Demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2026D1B61AEA23C100E64770 /* Tomany_Relationship_Demo.xcdatamodeld */; };
+		2026D1BB1AEA23C100E64770 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2026D1BA1AEA23C100E64770 /* ViewController.m */; };
+		2026D1BE1AEA23C100E64770 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2026D1BC1AEA23C100E64770 /* Main.storyboard */; };
+		2026D1C01AEA23C100E64770 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2026D1BF1AEA23C100E64770 /* Images.xcassets */; };
+		2026D1C31AEA23C100E64770 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2026D1C11AEA23C100E64770 /* LaunchScreen.xib */; };
+		2026D1CF1AEA23C200E64770 /* Tomany_Relationship_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2026D1CE1AEA23C200E64770 /* Tomany_Relationship_DemoTests.m */; };
+		2026D1DA1AEA293900E64770 /* Company.m in Sources */ = {isa = PBXBuildFile; fileRef = 2026D1D91AEA293900E64770 /* Company.m */; };
+		2026D1DD1AEA293A00E64770 /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = 2026D1DC1AEA293A00E64770 /* City.m */; };
+		2026D1E21AEA406F00E64770 /* CompanyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2026D1E11AEA406F00E64770 /* CompanyTableViewController.m */; };
+		2026D1E51AEA408200E64770 /* CityTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2026D1E41AEA408200E64770 /* CityTableViewController.m */; };
+		2026D1E81AEA409A00E64770 /* AddDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2026D1E71AEA409A00E64770 /* AddDataViewController.m */; };
+		2026D1EC1AEA6FBC00E64770 /* CitiesCompanyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2026D1EB1AEA6FBC00E64770 /* CitiesCompanyViewController.m */; };
+		2026D1F01AEA6FE200E64770 /* CompaniesCityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2026D1EF1AEA6FE200E64770 /* CompaniesCityViewController.m */; };
+		20966CA51AF0B77100D68535 /* InsertSingletonClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 20966CA41AF0B77100D68535 /* InsertSingletonClass.m */; };
+		20DCE7661AEF55380048A4EE /* UpdateDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DCE7651AEF55380048A4EE /* UpdateDataViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2026D1C91AEA23C200E64770 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2026D1A41AEA23C100E64770 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2026D1AB1AEA23C100E64770;
+			remoteInfo = Tomany_Relationship_Demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2026D1AC1AEA23C100E64770 /* Tomany_Relationship_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tomany_Relationship_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2026D1B01AEA23C100E64770 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2026D1B11AEA23C100E64770 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2026D1B31AEA23C100E64770 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2026D1B41AEA23C100E64770 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2026D1B71AEA23C100E64770 /* Tomany_Relationship_Demo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tomany_Relationship_Demo.xcdatamodel; sourceTree = "<group>"; };
+		2026D1B91AEA23C100E64770 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2026D1BA1AEA23C100E64770 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2026D1BD1AEA23C100E64770 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2026D1BF1AEA23C100E64770 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2026D1C21AEA23C100E64770 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2026D1C81AEA23C200E64770 /* Tomany_Relationship_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tomany_Relationship_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2026D1CD1AEA23C200E64770 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2026D1CE1AEA23C200E64770 /* Tomany_Relationship_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tomany_Relationship_DemoTests.m; sourceTree = "<group>"; };
+		2026D1D81AEA293900E64770 /* Company.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Company.h; sourceTree = "<group>"; };
+		2026D1D91AEA293900E64770 /* Company.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Company.m; sourceTree = "<group>"; };
+		2026D1DB1AEA293A00E64770 /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		2026D1DC1AEA293A00E64770 /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
+		2026D1E01AEA406F00E64770 /* CompanyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyTableViewController.h; sourceTree = "<group>"; };
+		2026D1E11AEA406F00E64770 /* CompanyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyTableViewController.m; sourceTree = "<group>"; };
+		2026D1E31AEA408200E64770 /* CityTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityTableViewController.h; sourceTree = "<group>"; };
+		2026D1E41AEA408200E64770 /* CityTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityTableViewController.m; sourceTree = "<group>"; };
+		2026D1E61AEA409A00E64770 /* AddDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddDataViewController.h; sourceTree = "<group>"; };
+		2026D1E71AEA409A00E64770 /* AddDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddDataViewController.m; sourceTree = "<group>"; };
+		2026D1EA1AEA6FBC00E64770 /* CitiesCompanyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CitiesCompanyViewController.h; sourceTree = "<group>"; };
+		2026D1EB1AEA6FBC00E64770 /* CitiesCompanyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CitiesCompanyViewController.m; sourceTree = "<group>"; };
+		2026D1EE1AEA6FE200E64770 /* CompaniesCityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompaniesCityViewController.h; sourceTree = "<group>"; };
+		2026D1EF1AEA6FE200E64770 /* CompaniesCityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompaniesCityViewController.m; sourceTree = "<group>"; };
+		20966CA31AF0B77100D68535 /* InsertSingletonClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsertSingletonClass.h; sourceTree = "<group>"; };
+		20966CA41AF0B77100D68535 /* InsertSingletonClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsertSingletonClass.m; sourceTree = "<group>"; };
+		20DCE7641AEF55380048A4EE /* UpdateDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateDataViewController.h; sourceTree = "<group>"; };
+		20DCE7651AEF55380048A4EE /* UpdateDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateDataViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2026D1A91AEA23C100E64770 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2026D1C51AEA23C200E64770 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2026D1A31AEA23C100E64770 = {
+			isa = PBXGroup;
+			children = (
+				2026D1AE1AEA23C100E64770 /* Tomany_Relationship_Demo */,
+				2026D1CB1AEA23C200E64770 /* Tomany_Relationship_DemoTests */,
+				2026D1AD1AEA23C100E64770 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2026D1AD1AEA23C100E64770 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2026D1AC1AEA23C100E64770 /* Tomany_Relationship_Demo.app */,
+				2026D1C81AEA23C200E64770 /* Tomany_Relationship_DemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2026D1AE1AEA23C100E64770 /* Tomany_Relationship_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				2026D1DF1AEA2A7100E64770 /* Company */,
+				2026D1DE1AEA2A6000E64770 /* City */,
+				2026D1B31AEA23C100E64770 /* AppDelegate.h */,
+				2026D1B41AEA23C100E64770 /* AppDelegate.m */,
+				2026D1B91AEA23C100E64770 /* ViewController.h */,
+				2026D1BA1AEA23C100E64770 /* ViewController.m */,
+				2026D1BC1AEA23C100E64770 /* Main.storyboard */,
+				2026D1BF1AEA23C100E64770 /* Images.xcassets */,
+				2026D1C11AEA23C100E64770 /* LaunchScreen.xib */,
+				2026D1B61AEA23C100E64770 /* Tomany_Relationship_Demo.xcdatamodeld */,
+				2026D1AF1AEA23C100E64770 /* Supporting Files */,
+				2026D1E61AEA409A00E64770 /* AddDataViewController.h */,
+				2026D1E71AEA409A00E64770 /* AddDataViewController.m */,
+				20DCE7641AEF55380048A4EE /* UpdateDataViewController.h */,
+				20DCE7651AEF55380048A4EE /* UpdateDataViewController.m */,
+			);
+			path = Tomany_Relationship_Demo;
+			sourceTree = "<group>";
+		};
+		2026D1AF1AEA23C100E64770 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2026D1B01AEA23C100E64770 /* Info.plist */,
+				2026D1B11AEA23C100E64770 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2026D1CB1AEA23C200E64770 /* Tomany_Relationship_DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2026D1CE1AEA23C200E64770 /* Tomany_Relationship_DemoTests.m */,
+				2026D1CC1AEA23C200E64770 /* Supporting Files */,
+			);
+			path = Tomany_Relationship_DemoTests;
+			sourceTree = "<group>";
+		};
+		2026D1CC1AEA23C200E64770 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2026D1CD1AEA23C200E64770 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2026D1DE1AEA2A6000E64770 /* City */ = {
+			isa = PBXGroup;
+			children = (
+				2026D1DB1AEA293A00E64770 /* City.h */,
+				2026D1DC1AEA293A00E64770 /* City.m */,
+				2026D1E31AEA408200E64770 /* CityTableViewController.h */,
+				2026D1E41AEA408200E64770 /* CityTableViewController.m */,
+				2026D1EA1AEA6FBC00E64770 /* CitiesCompanyViewController.h */,
+				2026D1EB1AEA6FBC00E64770 /* CitiesCompanyViewController.m */,
+			);
+			name = City;
+			sourceTree = "<group>";
+		};
+		2026D1DF1AEA2A7100E64770 /* Company */ = {
+			isa = PBXGroup;
+			children = (
+				2026D1D81AEA293900E64770 /* Company.h */,
+				2026D1D91AEA293900E64770 /* Company.m */,
+				2026D1E01AEA406F00E64770 /* CompanyTableViewController.h */,
+				2026D1E11AEA406F00E64770 /* CompanyTableViewController.m */,
+				2026D1EE1AEA6FE200E64770 /* CompaniesCityViewController.h */,
+				2026D1EF1AEA6FE200E64770 /* CompaniesCityViewController.m */,
+				20966CA31AF0B77100D68535 /* InsertSingletonClass.h */,
+				20966CA41AF0B77100D68535 /* InsertSingletonClass.m */,
+			);
+			name = Company;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2026D1AB1AEA23C100E64770 /* Tomany_Relationship_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2026D1D21AEA23C200E64770 /* Build configuration list for PBXNativeTarget "Tomany_Relationship_Demo" */;
+			buildPhases = (
+				2026D1A81AEA23C100E64770 /* Sources */,
+				2026D1A91AEA23C100E64770 /* Frameworks */,
+				2026D1AA1AEA23C100E64770 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tomany_Relationship_Demo;
+			productName = Tomany_Relationship_Demo;
+			productReference = 2026D1AC1AEA23C100E64770 /* Tomany_Relationship_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2026D1C71AEA23C200E64770 /* Tomany_Relationship_DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2026D1D51AEA23C200E64770 /* Build configuration list for PBXNativeTarget "Tomany_Relationship_DemoTests" */;
+			buildPhases = (
+				2026D1C41AEA23C200E64770 /* Sources */,
+				2026D1C51AEA23C200E64770 /* Frameworks */,
+				2026D1C61AEA23C200E64770 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2026D1CA1AEA23C200E64770 /* PBXTargetDependency */,
+			);
+			name = Tomany_Relationship_DemoTests;
+			productName = Tomany_Relationship_DemoTests;
+			productReference = 2026D1C81AEA23C200E64770 /* Tomany_Relationship_DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2026D1A41AEA23C100E64770 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = eZest;
+				TargetAttributes = {
+					2026D1AB1AEA23C100E64770 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					2026D1C71AEA23C200E64770 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 2026D1AB1AEA23C100E64770;
+					};
+				};
+			};
+			buildConfigurationList = 2026D1A71AEA23C100E64770 /* Build configuration list for PBXProject "Tomany_Relationship_Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2026D1A31AEA23C100E64770;
+			productRefGroup = 2026D1AD1AEA23C100E64770 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2026D1AB1AEA23C100E64770 /* Tomany_Relationship_Demo */,
+				2026D1C71AEA23C200E64770 /* Tomany_Relationship_DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2026D1AA1AEA23C100E64770 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2026D1BE1AEA23C100E64770 /* Main.storyboard in Resources */,
+				2026D1C31AEA23C100E64770 /* LaunchScreen.xib in Resources */,
+				2026D1C01AEA23C100E64770 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2026D1C61AEA23C200E64770 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2026D1A81AEA23C100E64770 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20966CA51AF0B77100D68535 /* InsertSingletonClass.m in Sources */,
+				2026D1B51AEA23C100E64770 /* AppDelegate.m in Sources */,
+				2026D1EC1AEA6FBC00E64770 /* CitiesCompanyViewController.m in Sources */,
+				2026D1E21AEA406F00E64770 /* CompanyTableViewController.m in Sources */,
+				2026D1F01AEA6FE200E64770 /* CompaniesCityViewController.m in Sources */,
+				2026D1E81AEA409A00E64770 /* AddDataViewController.m in Sources */,
+				2026D1DA1AEA293900E64770 /* Company.m in Sources */,
+				2026D1DD1AEA293A00E64770 /* City.m in Sources */,
+				2026D1E51AEA408200E64770 /* CityTableViewController.m in Sources */,
+				2026D1B21AEA23C100E64770 /* main.m in Sources */,
+				20DCE7661AEF55380048A4EE /* UpdateDataViewController.m in Sources */,
+				2026D1BB1AEA23C100E64770 /* ViewController.m in Sources */,
+				2026D1B81AEA23C100E64770 /* Tomany_Relationship_Demo.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2026D1C41AEA23C200E64770 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2026D1CF1AEA23C200E64770 /* Tomany_Relationship_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2026D1CA1AEA23C200E64770 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2026D1AB1AEA23C100E64770 /* Tomany_Relationship_Demo */;
+			targetProxy = 2026D1C91AEA23C200E64770 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2026D1BC1AEA23C100E64770 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2026D1BD1AEA23C100E64770 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2026D1C11AEA23C100E64770 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2026D1C21AEA23C100E64770 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2026D1D01AEA23C200E64770 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2026D1D11AEA23C200E64770 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2026D1D31AEA23C200E64770 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Tomany_Relationship_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2026D1D41AEA23C200E64770 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Tomany_Relationship_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2026D1D61AEA23C200E64770 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Tomany_Relationship_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tomany_Relationship_Demo.app/Tomany_Relationship_Demo";
+			};
+			name = Debug;
+		};
+		2026D1D71AEA23C200E64770 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Tomany_Relationship_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tomany_Relationship_Demo.app/Tomany_Relationship_Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2026D1A71AEA23C100E64770 /* Build configuration list for PBXProject "Tomany_Relationship_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2026D1D01AEA23C200E64770 /* Debug */,
+				2026D1D11AEA23C200E64770 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2026D1D21AEA23C200E64770 /* Build configuration list for PBXNativeTarget "Tomany_Relationship_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2026D1D31AEA23C200E64770 /* Debug */,
+				2026D1D41AEA23C200E64770 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2026D1D51AEA23C200E64770 /* Build configuration list for PBXNativeTarget "Tomany_Relationship_DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2026D1D61AEA23C200E64770 /* Debug */,
+				2026D1D71AEA23C200E64770 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2026D1B61AEA23C100E64770 /* Tomany_Relationship_Demo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2026D1B71AEA23C100E64770 /* Tomany_Relationship_Demo.xcdatamodel */,
+			);
+			currentVersion = 2026D1B71AEA23C100E64770 /* Tomany_Relationship_Demo.xcdatamodel */;
+			path = Tomany_Relationship_Demo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2026D1A41AEA23C100E64770 /* Project object */;
+}
